@@ -1,0 +1,26 @@
+C:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkdiv/clk_div_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\Users\steve\source\eel4712\lab4\83190817\p3\modelsim\clkdiv\clk_div_tb.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity clk_div_tb
+-- Compiling architecture TB of clk_div_tb
+
+} {} {}} C:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkdiv/lab4_p3.vho {1 {vcom -work work -2002 -explicit -stats=none C:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkdiv/lab4_p3.vho
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package VITAL_Timing
+-- Loading package VITAL_Primitives
+-- Loading package fiftyfivenm_atom_pack
+-- Loading package fiftyfivenm_components
+-- Compiling entity hard_block
+-- Compiling architecture structure of hard_block
+-- Loading package dffeas_pack
+-- Loading package altera_primitives_components
+-- Compiling entity clk_div
+-- Compiling architecture structure of clk_div
+
+} {} {}}

@@ -1,0 +1,156 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim
+Eclk_div
+Z0 w1696860363
+Z1 DPx11 fiftyfivenm 21 fiftyfivenm_atom_pack 0 22 OTUTkBjTeYVegmIWhVi3N0
+Z2 DPx11 fiftyfivenm 22 fiftyfivenm_components 0 22 C5K^h=:j[4HI?HO^UkN3:2
+Z3 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z4 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
+Z5 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z8 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
+!i122 27
+Z9 dC:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkdiv
+Z10 8C:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkdiv/lab4_p3.vho
+Z11 FC:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkdiv/lab4_p3.vho
+l0
+L91 1
+VdXaDiXL;<jzeQNSWW?7Lc0
+!s100 Na3kFR?C2]B5Tk5CU[09Z1
+Z12 OV;C;2020.1;71
+32
+Z13 !s110 1696861005
+!i10b 1
+Z14 !s108 1696861005.000000
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkdiv/lab4_p3.vho|
+Z16 !s107 C:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkdiv/lab4_p3.vho|
+!i113 1
+Z17 o-work work -2002 -explicit
+Z18 tExplicit 1 CvgOpt 0
+Astructure
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+Z19 DEx4 work 7 clk_div 0 22 dXaDiXL;<jzeQNSWW?7Lc0
+!i122 27
+l213
+Z20 L105 1511
+Z21 Vion9cj?:5PCWff:dNdgfe3
+Z22 !s100 QGXa3ZPIC01Sn=[n;iKfc2
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Eclk_div_tb
+Z23 w1696861003
+Z24 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R6
+R7
+!i122 26
+R9
+Z25 8C:\Users\steve\source\eel4712\lab4\83190817\p3\modelsim\clkdiv\clk_div_tb.vhd
+Z26 FC:\Users\steve\source\eel4712\lab4\83190817\p3\modelsim\clkdiv\clk_div_tb.vhd
+l0
+L5 1
+Vg=<6<EUHjhNDjk=c>7l=H0
+!s100 5;;2kz8FVec:7gRXafWcL1
+R12
+32
+R13
+!i10b 1
+R14
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\steve\source\eel4712\lab4\83190817\p3\modelsim\clkdiv\clk_div_tb.vhd|
+Z28 !s107 C:\Users\steve\source\eel4712\lab4\83190817\p3\modelsim\clkdiv\clk_div_tb.vhd|
+!i113 1
+R17
+R18
+Atb
+R24
+R6
+R7
+DEx4 work 10 clk_div_tb 0 22 g=<6<EUHjhNDjk=c>7l=H0
+!i122 26
+l27
+L9 57
+VJHan>4a8g=Xh==cnHHm=g3
+!s100 BVif0::7<kdLZaR?D897m2
+R12
+32
+R13
+!i10b 1
+R14
+R27
+R28
+!i113 1
+R17
+R18
+Ehard_block
+R0
+R3
+R1
+R5
+R6
+R7
+R2
+!i122 27
+R9
+R10
+R11
+l0
+L35 1
+V>3HSdlc4d4BO@^bgkI]0V1
+!s100 3A]XnMhF<;9mKUe5mn3aM1
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18
+Astructure
+R3
+R1
+R5
+R6
+R7
+R2
+Z29 DEx4 work 10 hard_block 0 22 >3HSdlc4d4BO@^bgkI]0V1
+!i122 27
+l76
+Z30 L54 28
+Z31 Ve]G^Ol53JFOhKP<L<OL=C3
+Z32 !s100 >:Wi^nX[YiN=@>>JC6K_83
+R12
+32
+R13
+!i10b 1
+R14
+R15
+R16
+!i113 1
+R17
+R18

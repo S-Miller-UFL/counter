@@ -1,0 +1,124 @@
+# Compile of clk_div_tb.vhd was successful.
+# Compile of lab4_p3.vho was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of clk_div_tb.vhd failed with 1 errors.
+# Compile of lab4_p3.vho was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of clk_div_tb.vhd failed with 1 errors.
+# Compile of lab4_p3.vho was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of clk_div_tb.vhd was successful.
+# Compile of lab4_p3.vho was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.clk_div_tb
+# vsim -gui work.clk_div_tb 
+# Start time: 09:56:39 on Oct 09,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.clk_div_tb(tb)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading fiftyfivenm.fiftyfivenm_atom_pack(body)
+# Loading fiftyfivenm.fiftyfivenm_components
+# Loading work.clk_div(structure)
+# ** Warning: (vsim-8713) Suspect default binding for component instance 'UUT'.
+# Entity has no generics at all; the component has generics:
+#           clk_out_freq
+#           clk_in_freq
+#    Time: 0 ps  Iteration: 0  Instance: /clk_div_tb/UUT File: C:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkdiv/clk_div_tb.vhd Line: 39
+# Loading work.hard_block(structure)
+# Loading fiftyfivenm.fiftyfivenm_lcell_comb(vital_lcell_comb)
+# Loading fiftyfivenm.fiftyfivenm_io_obuf(behavior)
+# Loading fiftyfivenm.fiftyfivenm_io_ibuf(behavior)
+# Loading fiftyfivenm.fiftyfivenm_clkctrl(vital_clkctrl)
+# Loading fiftyfivenm.fiftyfivenm_ena_reg(behave)
+# Loading altera.dffeas(vital_dffeas)
+# Loading fiftyfivenm.fiftyfivenm_unvm(behavior)
+# Loading fiftyfivenm.fiftyfivenm_adcblock(behavior)
+# ** Warning: Design size of 10310 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+add wave -position end  sim:/clk_div_tb/clk1
+add wave -position end  sim:/clk_div_tb/clk2
+add wave -position end  sim:/clk_div_tb/rst
+add wave -position end  sim:/clk_div_tb/RATIO
+run -all
+# Compile of clk_div_tb.vhd failed with 4 errors.
+# Compile of lab4_p3.vho was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 10:01:40 on Oct 09,2023, Elapsed time: 0:05:01
+# Errors: 0, Warnings: 14
+# Compile of clk_div_tb.vhd failed with 4 errors.
+# Compile of lab4_p3.vho was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of clk_div_tb.vhd failed with 5 errors.
+# Compile of lab4_p3.vho was successful.
+# 2 compiles, 1 failed with 5 errors.
+# Compile of clk_div_tb.vhd failed with 2 errors.
+# Compile of lab4_p3.vho was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of clk_div_tb.vhd failed with 2 errors.
+# Compile of lab4_p3.vho was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of clk_div_tb.vhd failed with 3 errors.
+# Compile of lab4_p3.vho was successful.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of clk_div_tb.vhd failed with 3 errors.
+# Compile of lab4_p3.vho was successful.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of clk_div_tb.vhd was successful.
+# Compile of lab4_p3.vho was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of clk_div_tb.vhd failed with 1 errors.
+# Compile of lab4_p3.vho was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of clk_div_tb.vhd was successful.
+# Compile of lab4_p3.vho was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.clk_div_tb
+# vsim -gui work.clk_div_tb 
+# Start time: 10:16:53 on Oct 09,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.clk_div_tb(tb)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading fiftyfivenm.fiftyfivenm_atom_pack(body)
+# Loading fiftyfivenm.fiftyfivenm_components
+# Loading work.clk_div(structure)
+# ** Warning: (vsim-8713) Suspect default binding for component instance 'UUT'.
+# Entity has no generics at all; the component has generics:
+#           clk_out_freq
+#           clk_in_freq
+#    Time: 0 ps  Iteration: 0  Instance: /clk_div_tb/UUT File: C:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkdiv/clk_div_tb.vhd Line: 36
+# Loading work.hard_block(structure)
+# Loading fiftyfivenm.fiftyfivenm_lcell_comb(vital_lcell_comb)
+# Loading fiftyfivenm.fiftyfivenm_io_obuf(behavior)
+# Loading fiftyfivenm.fiftyfivenm_io_ibuf(behavior)
+# Loading fiftyfivenm.fiftyfivenm_clkctrl(vital_clkctrl)
+# Loading fiftyfivenm.fiftyfivenm_ena_reg(behave)
+# Loading altera.dffeas(vital_dffeas)
+# Loading fiftyfivenm.fiftyfivenm_unvm(behavior)
+# Loading fiftyfivenm.fiftyfivenm_adcblock(behavior)
+# ** Warning: Design size of 10318 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+add wave -position end  sim:/clk_div_tb/clk1
+add wave -position end  sim:/clk_div_tb/clk2
+add wave -position end  sim:/clk_div_tb/rst
+add wave -position end  sim:/clk_div_tb/RATIO
+run -all
+# Break key hit
+# Simulation stop requested.
+quit -sim
+# End time: 10:59:05 on Oct 09,2023, Elapsed time: 0:42:12
+# Errors: 0, Warnings: 14

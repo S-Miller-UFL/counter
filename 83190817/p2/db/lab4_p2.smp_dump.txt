@@ -1,0 +1,19 @@
+
+State Machine - |gray2|nextstate
+Name nextstate.F nextstate.E nextstate.D nextstate.C nextstate.B nextstate.A nextstate.nine nextstate.eight nextstate.seven nextstate.six nextstate.five nextstate.four nextstate.three nextstate.two nextstate.one nextstate.zero 
+nextstate.zero 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+nextstate.one 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+nextstate.two 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 
+nextstate.three 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 
+nextstate.four 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 
+nextstate.five 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 
+nextstate.six 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 
+nextstate.seven 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 
+nextstate.eight 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+nextstate.nine 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 
+nextstate.A 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 
+nextstate.B 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 
+nextstate.C 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+nextstate.D 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 
+nextstate.E 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+nextstate.F 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
