@@ -1,20 +1,14 @@
-C:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkgen/lab4_p3.vho {1 {vcom -work work -2002 -explicit -stats=none C:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkgen/lab4_p3.vho
+C:/Users/steve/source/eel4712/lab4/83190817/p3/clk_gen.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/steve/source/eel4712/lab4/83190817/p3/clk_gen.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
--- Loading package VITAL_Timing
--- Loading package VITAL_Primitives
--- Loading package fiftyfivenm_atom_pack
--- Loading package fiftyfivenm_components
--- Compiling entity hard_block
--- Compiling architecture structure of hard_block
--- Loading package dffeas_pack
--- Loading package altera_primitives_components
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
 -- Compiling entity clk_gen
--- Compiling architecture structure of clk_gen
+-- Compiling architecture arch of clk_gen
 
-} {} {}} C:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkgen/clk_gen_tb.vhd {0 {vcom -work work -2002 -explicit -stats=none {C:\Users\steve\source\eel4712\lab4\83190817\p3\modelsim\clkgen\clk_gen_tb.vhd}
+} {} {}} C:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkgen/clk_gen_tb.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkgen/clk_gen_tb.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -22,15 +16,17 @@ Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 
 -- Loading package NUMERIC_STD
 -- Compiling entity clk_gen_tb
 -- Compiling architecture TB of clk_gen_tb
--- Loading package VITAL_Timing
--- Loading package VITAL_Primitives
--- Loading package dffeas_pack
--- Loading package altera_primitives_components
--- Loading package fiftyfivenm_atom_pack
--- Loading package fiftyfivenm_components
+-- Loading package MATH_REAL
 -- Loading entity clk_gen
-** Error: C:\Users\steve\source\eel4712\lab4\83190817\p3\modelsim\clkgen\clk_gen_tb.vhd(29): (vcom-1484) Unknown formal identifier "MS_PERIOD".
-** Error: C:\Users\steve\source\eel4712\lab4\83190817\p3\modelsim\clkgen\clk_gen_tb.vhd(29): (vcom-1484) Unknown formal identifier "MS_PERIOD".
-** Note: C:\Users\steve\source\eel4712\lab4\83190817\p3\modelsim\clkgen\clk_gen_tb.vhd(105): VHDL Compiler exiting
 
-} {16.0 18.0} {}}
+} {} {}} C:/Users/steve/source/eel4712/lab4/83190817/p3/clk_div.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/steve/source/eel4712/lab4/83190817/p3/clk_div.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity clk_div
+-- Compiling architecture arch of clk_div
+
+} {} {}}

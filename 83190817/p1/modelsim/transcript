@@ -1,0 +1,75 @@
+# Compile of counter_tb.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.counter_tb
+# vsim -gui work.counter_tb 
+# Start time: 13:26:05 on Oct 10,2023
+# Loading std.standard
+# ** Error: (vsim-13) Recompile work.counter_tb(tb) because work.counter has changed.
+# Error loading design
+# End time: 13:26:06 on Oct 10,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 4
+vsim -gui work.counter_tb
+# vsim -gui work.counter_tb 
+# Start time: 13:26:18 on Oct 10,2023
+# Loading std.standard
+# ** Error: (vsim-13) Recompile work.counter_tb(tb) because work.counter has changed.
+# Error loading design
+# End time: 13:26:19 on Oct 10,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 1
+# Compile of counter_tb.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.counter_tb
+# vsim -gui work.counter_tb 
+# Start time: 13:26:41 on Oct 10,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.counter_tb(tb)
+# Loading work.counter(arch)
+add wave -position end  sim:/counter_tb/clk
+add wave -position end  sim:/counter_tb/rst
+add wave -position end  sim:/counter_tb/up_n
+add wave -position end  sim:/counter_tb/load_n
+add wave -position end  sim:/counter_tb/input
+add wave -position end  sim:/counter_tb/output
+add wave -position end  sim:/counter_tb/done
+run -all
+# ** Warning: Load failed
+#    Time: 110 ns  Iteration: 0  Instance: /counter_tb
+# ** Warning: increment failed
+#    Time: 170 ns  Iteration: 0  Instance: /counter_tb
+# ** Warning: decrement failed
+#    Time: 230 ns  Iteration: 0  Instance: /counter_tb
+# ** Note: SIMULATION FINISHED!
+#    Time: 280 ns  Iteration: 0  Instance: /counter_tb
+# Compile of counter_tb.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb(tb)
+# Loading work.counter(arch)
+run -all
+# ** Warning: increment failed
+#    Time: 170 ns  Iteration: 0  Instance: /counter_tb
+# ** Warning: decrement failed
+#    Time: 230 ns  Iteration: 0  Instance: /counter_tb
+# ** Note: SIMULATION FINISHED!
+#    Time: 280 ns  Iteration: 0  Instance: /counter_tb
+# Compile of counter_tb.vhd was successful.
+# Compile of counter.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+run -all
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.counter_tb(tb)
+# Loading work.counter(arch)
+run -all
+# ** Note: SIMULATION FINISHED!
+#    Time: 200 ns  Iteration: 0  Instance: /counter_tb
+# End time: 10:50:17 on Oct 11,2023, Elapsed time: 21:23:36
+# Errors: 0, Warnings: 1
+# Closing project C:/Users/steve/source/eel4712/lab4/83190817/p1/modelsim/lab4_p1.mpf

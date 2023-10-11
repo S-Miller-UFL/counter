@@ -10,7 +10,7 @@ z2
 cModel Technology
 Z0 dC:/Users/steve/source/eel4712/lab4/83190817/p3/simulation/qsim
 Eclk_div
-Z1 w1696864146
+Z1 w1696954387
 Z2 DPx11 fiftyfivenm 21 fiftyfivenm_atom_pack 0 22 OTUTkBjTeYVegmIWhVi3N0
 Z3 DPx11 fiftyfivenm 22 fiftyfivenm_components 0 22 C5K^h=:j[4HI?HO^UkN3:2
 Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
@@ -19,7 +19,7 @@ Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
 Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 Z9 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
-!i122 16
+!i122 18
 R0
 Z10 8lab4_p3.vho
 Z11 Flab4_p3.vho
@@ -29,9 +29,9 @@ VHVA@P8_nf1eg0^]^XUTcT0
 !s100 Na3kFR?C2]B5Tk5CU[09Z1
 Z12 OV;C;2020.1;71
 32
-Z13 !s110 1696864148
+Z13 !s110 1696954389
 !i10b 1
-Z14 !s108 1696864148.000000
+Z14 !s108 1696954388.000000
 Z15 !s90 -work|work|lab4_p3.vho|
 Z16 !s107 lab4_p3.vho|
 !i113 1
@@ -47,7 +47,7 @@ R7
 R8
 R9
 DEx4 work 7 clk_div 0 22 HVA@P8_nf1eg0^]^XUTcT0
-!i122 16
+!i122 18
 l224
 L105 1662
 VzPAP2oITBe1T:R^ca[]971
@@ -63,10 +63,10 @@ R16
 R17
 R18
 Eclk_div_vhd_vec_tst
-Z19 w1696864145
+Z19 w1696954386
 R7
 R8
-!i122 17
+!i122 19
 R0
 Z20 8Waveform.vwf.vht
 Z21 FWaveform.vwf.vht
@@ -78,28 +78,28 @@ R12
 32
 R13
 !i10b 1
-R14
-Z22 !s90 -work|work|Waveform.vwf.vht|
-Z23 !s107 Waveform.vwf.vht|
+Z22 !s108 1696954389.000000
+Z23 !s90 -work|work|Waveform.vwf.vht|
+Z24 !s107 Waveform.vwf.vht|
 !i113 1
 R17
 R18
 Aclk_div_arch
 R7
 R8
-Z24 DEx4 work 19 clk_div_vhd_vec_tst 0 22 P63R41ePDFceTWie5BJS[3
-!i122 17
+Z25 DEx4 work 19 clk_div_vhd_vec_tst 0 22 P63R41ePDFceTWie5BJS[3
+!i122 19
 l47
-Z25 L34 41
-Z26 Vi^DTkfGiOea9BIB^Kb>]70
-Z27 !s100 VLOHHO05jfn`Nz8RO2Sjm0
+Z26 L34 41
+Z27 Vi^DTkfGiOea9BIB^Kb>]70
+Z28 !s100 VLOHHO05jfn`Nz8RO2Sjm0
 R12
 32
 R13
 !i10b 1
-R14
 R22
 R23
+R24
 !i113 1
 R17
 R18
@@ -111,7 +111,7 @@ R6
 R7
 R8
 R3
-!i122 16
+!i122 18
 R0
 R10
 R11
@@ -137,7 +137,7 @@ R7
 R8
 R3
 DEx4 work 10 hard_block 0 22 hj[i;a0dD85B`o1JPT^cg2
-!i122 16
+!i122 18
 l76
 L54 28
 Va5ClDYec`9chO`Ne0M1NL2

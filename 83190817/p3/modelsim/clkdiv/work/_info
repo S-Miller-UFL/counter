@@ -10,7 +10,7 @@ z2
 cModel Technology
 dC:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim
 Eclk_div
-Z0 w1696860363
+Z0 w1696956283
 Z1 DPx11 fiftyfivenm 21 fiftyfivenm_atom_pack 0 22 OTUTkBjTeYVegmIWhVi3N0
 Z2 DPx11 fiftyfivenm 22 fiftyfivenm_components 0 22 C5K^h=:j[4HI?HO^UkN3:2
 Z3 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
@@ -19,19 +19,19 @@ Z5 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
 Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 Z8 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
-!i122 27
+!i122 51
 Z9 dC:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkdiv
 Z10 8C:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkdiv/lab4_p3.vho
 Z11 FC:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkdiv/lab4_p3.vho
 l0
 L91 1
-VdXaDiXL;<jzeQNSWW?7Lc0
-!s100 Na3kFR?C2]B5Tk5CU[09Z1
+VTQ6cmZNQhRI:zO1<`[[E:2
+!s100 g>61RF=IR>][W=L07^?Rg1
 Z12 OV;C;2020.1;71
 32
-Z13 !s110 1696861005
+Z13 !s110 1696956289
 !i10b 1
-Z14 !s108 1696861005.000000
+Z14 !s108 1696956289.000000
 Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkdiv/lab4_p3.vho|
 Z16 !s107 C:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkdiv/lab4_p3.vho|
 !i113 1
@@ -46,12 +46,12 @@ R5
 R6
 R7
 R8
-Z19 DEx4 work 7 clk_div 0 22 dXaDiXL;<jzeQNSWW?7Lc0
-!i122 27
-l213
-Z20 L105 1511
-Z21 Vion9cj?:5PCWff:dNdgfe3
-Z22 !s100 QGXa3ZPIC01Sn=[n;iKfc2
+DEx4 work 7 clk_div 0 22 TQ6cmZNQhRI:zO1<`[[E:2
+!i122 51
+l224
+Z19 L105 1662
+Z20 VjnfMgEM36;AOdbRX3:H>;2
+Z21 !s100 DPHXCQ]4zNLK<f2@K831C0
 R12
 32
 R13
@@ -62,15 +62,39 @@ R16
 !i113 1
 R17
 R18
-Eclk_div_tb
-Z23 w1696861003
-Z24 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Aarch
+DPx4 ieee 9 math_real 0 22 gNk<PdFJ<XNPcfef`f?Z81
+Z22 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 R6
 R7
-!i122 26
+DEx4 work 7 clk_div 0 22 =?S3@g<cf7?SPI`L9GgTJ1
+!i122 50
+l21
+L17 23
+V_1bNgIUNml@_0Vn22h2^I3
+!s100 <MPQTc6miDzdBjB0h]U=?2
+R12
+32
+R13
+!i10b 1
+R14
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab4/83190817/p3/clk_div.vhd|
+!s107 C:/Users/steve/source/eel4712/lab4/83190817/p3/clk_div.vhd|
+!i113 1
+R17
+R18
+FC:/Users/steve/source/eel4712/lab4/83190817/p3/clk_div.vhd
+w1696954623
+8C:/Users/steve/source/eel4712/lab4/83190817/p3/clk_div.vhd
+Eclk_div_tb
+Z23 w1696955509
+R22
+R6
+R7
+!i122 49
 R9
-Z25 8C:\Users\steve\source\eel4712\lab4\83190817\p3\modelsim\clkdiv\clk_div_tb.vhd
-Z26 FC:\Users\steve\source\eel4712\lab4\83190817\p3\modelsim\clkdiv\clk_div_tb.vhd
+Z24 8C:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkdiv/clk_div_tb.vhd
+Z25 FC:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkdiv/clk_div_tb.vhd
 l0
 L5 1
 Vg=<6<EUHjhNDjk=c>7l=H0
@@ -80,28 +104,28 @@ R12
 R13
 !i10b 1
 R14
-Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\steve\source\eel4712\lab4\83190817\p3\modelsim\clkdiv\clk_div_tb.vhd|
-Z28 !s107 C:\Users\steve\source\eel4712\lab4\83190817\p3\modelsim\clkdiv\clk_div_tb.vhd|
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkdiv/clk_div_tb.vhd|
+Z27 !s107 C:/Users/steve/source/eel4712/lab4/83190817/p3/modelsim/clkdiv/clk_div_tb.vhd|
 !i113 1
 R17
 R18
 Atb
-R24
+R22
 R6
 R7
 DEx4 work 10 clk_div_tb 0 22 g=<6<EUHjhNDjk=c>7l=H0
-!i122 26
+!i122 49
 l27
 L9 57
-VJHan>4a8g=Xh==cnHHm=g3
-!s100 BVif0::7<kdLZaR?D897m2
+VdTn4iKBJo;0Th4]`7?WJS3
+!s100 6jn@ajDKBdh0ePQKWP7n33
 R12
 32
 R13
 !i10b 1
 R14
+R26
 R27
-R28
 !i113 1
 R17
 R18
@@ -113,7 +137,7 @@ R5
 R6
 R7
 R2
-!i122 27
+!i122 51
 R9
 R10
 R11
@@ -138,12 +162,12 @@ R5
 R6
 R7
 R2
-Z29 DEx4 work 10 hard_block 0 22 >3HSdlc4d4BO@^bgkI]0V1
-!i122 27
+Z28 DEx4 work 10 hard_block 0 22 >3HSdlc4d4BO@^bgkI]0V1
+!i122 51
 l76
-Z30 L54 28
-Z31 Ve]G^Ol53JFOhKP<L<OL=C3
-Z32 !s100 >:Wi^nX[YiN=@>>JC6K_83
+Z29 L54 28
+Z30 Ve]G^Ol53JFOhKP<L<OL=C3
+Z31 !s100 >:Wi^nX[YiN=@>>JC6K_83
 R12
 32
 R13

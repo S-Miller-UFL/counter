@@ -49,17 +49,17 @@ clk <= not(clk) after 10 ns when done = '0' else clk;
     input <= "1010";
  
     wait until rising_edge(clk);
-
-    assert(output = "1010") report "Load failed" severity warning;
     wait for 50 ns;
+    assert(output = "1010") report "Load failed" severity warning;
 
     -- increment
     rst <= '0';
     load_n  <= '1';
     up_n <= '0';
     wait until rising_edge(clk);
+    wait for 10 ns;
     assert(output = "1011") report "increment failed" severity warning;
-    wait for 50 ns;
+    --wait for 50 ns;
 
     -- decrement
     rst <= '0';
@@ -67,9 +67,9 @@ clk <= not(clk) after 10 ns when done = '0' else clk;
     up_n <= '1';
 
     wait until rising_edge(clk);
-
+    wait for 10 ns;
     assert(output = "1010") report "decrement failed" severity warning;
-    wait for 50 ns;
+   -- wait for 50 ns;
     report "SIMULATION FINISHED!";
     done <= '1';
 

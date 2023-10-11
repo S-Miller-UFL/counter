@@ -22,16 +22,13 @@ architecture TB of clk_div_tb is
     signal rst  : std_logic;
 
     -- CHANGE THIS TO TEST DIFFERENT CLOCK RATIOS
-    constant RATIO : integer := 4/1;
+    constant RATIO : integer := 3/1;
 
 begin  -- TB
 
     UUT : clk_div
         generic map (
-            clk_in_freq  => RATIO,      -- NOTE: This is not how you should
-                                        -- instantiate the clk_div in clk_gen.
-                                        -- You should specify the actual
-                                        -- frequencies 
+            clk_in_freq  => 3,     
             clk_out_freq => 1)
         port map (
             clk_in  => clk1,
@@ -43,7 +40,7 @@ begin  -- TB
     process
 	variable count : natural;
     begin
-	count := clk_out_freq;
+	count := ratio;
         rst <= '1';
 
         -- wait for 5 cycles

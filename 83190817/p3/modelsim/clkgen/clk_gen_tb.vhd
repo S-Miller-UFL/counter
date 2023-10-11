@@ -13,7 +13,7 @@ architecture TB of clk_gen_tb is
     signal clk_out  : std_logic;
     signal done     : std_logic := '0';
 
-    constant MS_PERIOD : integer := 2;
+    constant ms_period : integer := 2;
     constant MAX_TIME  : time    := (MS_PERIOD+1)*1 ms;  -- allow for time if
                                                          -- button was pressed
                                                          -- between clocks
@@ -26,7 +26,7 @@ begin  -- TB
 
     U_CLK_GEN : entity work.clk_gen
         generic map (
-            ms_period => MS_PERIOD)
+            ms_period => ms_period)
         port map (
             clk50MHz => clk50MHz,
             rst      => rst,

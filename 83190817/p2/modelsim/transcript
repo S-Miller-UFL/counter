@@ -1,8 +1,38 @@
-# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
-# Loading project lab4_p3_clkdiv
-# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
-# Loading project lab4_p3_clkgen
-# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
-# Loading project lab4_p3_clkdiv
-# reading C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini
-# Loading project lab4_p3_clkgen
+vsim -gui work.gray2_tb
+# vsim -gui work.gray2_tb 
+# Start time: 10:50:45 on Oct 11,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading altera.dffeas_pack
+# Loading altera.altera_primitives_components
+# Loading fiftyfivenm.fiftyfivenm_atom_pack(body)
+# Loading fiftyfivenm.fiftyfivenm_components
+# Loading work.gray2_tb(tb)
+# Loading work.gray2(structure)
+# Loading work.hard_block(structure)
+# Loading fiftyfivenm.fiftyfivenm_lcell_comb(vital_lcell_comb)
+# Loading fiftyfivenm.fiftyfivenm_io_obuf(behavior)
+# Loading fiftyfivenm.fiftyfivenm_io_ibuf(behavior)
+# Loading fiftyfivenm.fiftyfivenm_clkctrl(vital_clkctrl)
+# Loading fiftyfivenm.fiftyfivenm_ena_reg(behave)
+# Loading altera.dffeas(vital_dffeas)
+# Loading fiftyfivenm.fiftyfivenm_unvm(behavior)
+# Loading fiftyfivenm.fiftyfivenm_adcblock(behavior)
+add wave -position end  sim:/gray2_tb/clk
+add wave -position end  sim:/gray2_tb/rst
+add wave -position end  sim:/gray2_tb/output
+add wave -position end  sim:/gray2_tb/done
+run -all
+# ** Note: SIMULATION FINISHED!
+#    Time: 440 ns  Iteration: 0  Instance: /gray2_tb
+# ** Error: counter incorrect
+#    Time: 460 ns  Iteration: 0  Instance: /gray2_tb
+# End time: 10:55:33 on Oct 11,2023, Elapsed time: 0:04:48
+# Errors: 1, Warnings: 1
+# Closing project C:/Users/steve/source/eel4712/lab4/83190817/p2/modelsim/lab4_p2.mpf

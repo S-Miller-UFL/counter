@@ -7,7 +7,7 @@ use ieee.math_real.all;
 
 entity clk_div is
     generic(clk_in_freq  : natural := 50000000;
-            clk_out_freq : natural := 1000);
+            clk_out_freq : natural := 1);
     port (
         clk_in  : in  std_logic;
         clk_out : out std_logic;
@@ -21,7 +21,6 @@ signal count : unsigned(31 downto 0);
 begin
 process(clk_in,rst)
 begin
-report "starting...";
 if(rst = '1') then
 	count <= (others => '0');
 	clockout<= '0';

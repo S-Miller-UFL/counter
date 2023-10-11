@@ -22,14 +22,14 @@ architecture TB of clk_div_tb is
     signal rst  : std_logic;
 
     -- CHANGE THIS TO TEST DIFFERENT CLOCK RATIOS
-    constant RATIO : integer := 4000/100;
+    constant RATIO : integer := 4/1;
 
 begin  -- TB
 
     UUT : clk_div
         generic map (
-            clk_in_freq  => 4000,      
-            clk_out_freq => 100)
+            clk_in_freq  => 4,     
+            clk_out_freq => 1)
         port map (
             clk_in  => clk1,
             clk_out => clk2,

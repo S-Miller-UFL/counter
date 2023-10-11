@@ -28,8 +28,8 @@ end component;
 
 signal slowclk : std_logic;
 begin
-
-clkdiv: clk_div generic map (clk_in_freq => 50000000, clk_out_freq => 1000)
+--modify data you feed into your divider so each count is 1 ms long
+clkdiv: clk_div generic map (clk_in_freq => 50000000, clk_out_freq => 2000)
  port map(clk_in => clk50Mhz, clk_out => slowclk, rst=>rst);
 process(slowclk, rst)
 variable count : natural := 0;
@@ -43,11 +43,11 @@ elsif(slowclk'Event and slowclk = '1') then
 	if(button_n = '0') then
 		--if ms_period/1000 second(s) has elapsed
 		if(count = ms_period) then
-			clk_out <= '0'; -- end pulse
+			clk_out <= '1'; -- end pulse
 			count := 0;
 		else
 			count := count +1;
-			clk_out <= '1';
+			clk_out <= '0';
 		end if;
 	else
 		clk_out <= '0';

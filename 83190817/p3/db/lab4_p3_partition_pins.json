@@ -8,11 +8,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "clk_in",
+					"name" : "button_n",
 					"strict" : false
 				},
 				{
 					"name" : "rst",
+					"strict" : false
+				},
+				{
+					"name" : "clk50MHz",
 					"strict" : false
 				}
 			]

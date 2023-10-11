@@ -1,12 +1,100 @@
-# Compile of clk_gen_tb.vhd failed with 2 errors.
-# Compile of lab4_p3.vho was successful.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of clk_gen_tb.vhd failed with 2 errors.
-# Compile of lab4_p3.vho was successful.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of clk_gen_tb.vhd failed with 2 errors.
-# Compile of lab4_p3.vho was successful.
-# 2 compiles, 1 failed with 2 errors.
-# Compile of clk_gen_tb.vhd failed with 2 errors.
-# Compile of lab4_p3.vho was successful.
-# 2 compiles, 1 failed with 2 errors.
+vsim -gui work.clk_gen_tb
+# vsim -gui work.clk_gen_tb 
+# Start time: 10:55:46 on Oct 11,2023
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.clk_gen_tb(tb)
+# Loading work.clk_gen(arch)
+# Loading work.clk_div(arch)
+add wave -position end  sim:/clk_gen_tb/clk50MHz
+add wave -position end  sim:/clk_gen_tb/rst
+add wave -position end  sim:/clk_gen_tb/button_n
+add wave -position end  sim:/clk_gen_tb/clk_out
+add wave -position end  sim:/clk_gen_tb/done
+add wave -position end  sim:/clk_gen_tb/ms_period
+add wave -position end  sim:/clk_gen_tb/MAX_TIME
+add wave -position end  sim:/clk_gen_tb/MIN_TIME
+run -all
+# ** Note: Clock not generated for continued press.
+#    Time: 5500190 ns  Iteration: 0  Instance: /clk_gen_tb
+# ** Note: DONE!
+#    Time: 14500670 ns  Iteration: 3  Instance: /clk_gen_tb
+# Compile of clk_gen_tb.vhd was successful.
+# Compile of clk_gen.vhd was successful.
+# Compile of clk_div.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.clk_gen_tb(tb)
+# Loading work.clk_gen(arch)
+# Loading work.clk_div(arch)
+run -all
+# ** Note: Clock generated too soon.1250090000 ps
+#    Time: 1250190 ns  Iteration: 3  Instance: /clk_gen_tb
+# ** Note: Min time = 2000000000 ps
+#    Time: 1250190 ns  Iteration: 3  Instance: /clk_gen_tb
+# ** Note: Clock generated too soon for generated press.1500120000 ps
+#    Time: 2750310 ns  Iteration: 3  Instance: /clk_gen_tb
+# ** Note: Min time = 2000000000 ps
+#    Time: 2750310 ns  Iteration: 3  Instance: /clk_gen_tb
+# ** Note: Clock for pressed button after release generated too soon.1000640000 ps
+#    Time: 10750950 ns  Iteration: 3  Instance: /clk_gen_tb
+# ** Note: Min time = 2000000000 ps
+#    Time: 10750950 ns  Iteration: 3  Instance: /clk_gen_tb
+# ** Note: DONE!
+#    Time: 10750950 ns  Iteration: 3  Instance: /clk_gen_tb
+# Compile of clk_gen_tb.vhd was successful.
+# Compile of clk_gen.vhd was successful.
+# Compile of clk_div.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.clk_gen_tb(tb)
+# Loading work.clk_gen(arch)
+# Loading work.clk_div(arch)
+run -all
+# ** Note: Clock not generated for continued press.
+#    Time: 5500190 ns  Iteration: 0  Instance: /clk_gen_tb
+# ** Note: DONE!
+#    Time: 14500670 ns  Iteration: 3  Instance: /clk_gen_tb
+# Compile of clk_gen_tb.vhd was successful.
+# Compile of clk_gen.vhd was successful.
+# Compile of clk_div.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.clk_gen_tb(tb)
+# Loading work.clk_gen(arch)
+# Loading work.clk_div(arch)
+run -all
+# ** Note: Clock not generated.
+#    Time: 3000100 ns  Iteration: 0  Instance: /clk_gen_tb
+# ** Note: Clock not generated for pressed button after release.
+#    Time: 15000190 ns  Iteration: 0  Instance: /clk_gen_tb
+# ** Note: DONE!
+#    Time: 15000190 ns  Iteration: 0  Instance: /clk_gen_tb
+# Compile of clk_gen_tb.vhd was successful.
+# Compile of clk_gen.vhd was successful.
+# Compile of clk_div.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.clk_gen_tb(tb)
+# Loading work.clk_gen(arch)
+# Loading work.clk_div(arch)
+run -all
+# ** Note: Clock for pressed button after release generated too soon.1800440000 ps
+#    Time: 13200750 ns  Iteration: 3  Instance: /clk_gen_tb
+# ** Note: Min time = 2000000000 ps
+#    Time: 13200750 ns  Iteration: 3  Instance: /clk_gen_tb
+# ** Note: DONE!
+#    Time: 13200750 ns  Iteration: 3  Instance: /clk_gen_tb
+# Compile of clk_gen_tb.vhd was successful.
+# Compile of clk_gen.vhd was successful.
+# Compile of clk_div.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+# End time: 11:07:19 on Oct 11,2023, Elapsed time: 0:11:33
+# Errors: 0, Warnings: 2
