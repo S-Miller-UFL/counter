@@ -77,20 +77,21 @@ clk <= not(clk) after 10 ns when done = '0' else clk;
   begin
     -- test count
     rst <= '0';
-    wait for 10 ns;
+    wait for 200 ns;
     for i in 1 to 15 loop
-	wait for 10 ns;
+	wait for 20 ns;
 	assert(output = graycounter(i)) report "counter incorrect";
 	wait until rising_edge(clk);
     end loop;
+
+   --wrap back to 0 test
     wait for 10 ns;
     assert(output = graycounter(0)) report "wrap back to 0 incorrect";
+
    for i in 0 to 4 loop
-	--wait for 10 ns;
-	--assert(output = graycounter(i)) report "counter incorrect";
 	wait until rising_edge(clk);
     end loop;
-    --another reset test for sanity check
+    --reset test
     rst    <= '1';
     wait for 10 ns;
     assert(output = graycounter(0)) report "Clear failed" severity warning;

@@ -10,158 +10,169 @@ z2
 cModel Technology
 dC:/Users/steve/source/eel4712/lab4/83190817/p1/modelsim
 Egray2
-Z0 w1696790077
-Z1 DPx11 fiftyfivenm 21 fiftyfivenm_atom_pack 0 22 OTUTkBjTeYVegmIWhVi3N0
-Z2 DPx11 fiftyfivenm 22 fiftyfivenm_components 0 22 C5K^h=:j[4HI?HO^UkN3:2
-Z3 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
-Z4 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
-Z5 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
-Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-Z8 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
-!i122 59
-Z9 dC:/Users/steve/source/eel4712/lab4/83190817/p2/modelsim
-Z10 8C:/Users/steve/source/eel4712/lab4/83190817/p2/modelsim/lab4_p2.vho
-Z11 FC:/Users/steve/source/eel4712/lab4/83190817/p2/modelsim/lab4_p2.vho
+Z0 w1697047010
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 78
+Z3 dC:/Users/steve/git_repos/school/EEL4712/lab4/83190817/p2/modelsim
+Z4 8C:/Users/steve/git_repos/school/EEL4712/lab4/83190817/p2/gray2.vhd
+Z5 FC:/Users/steve/git_repos/school/EEL4712/lab4/83190817/p2/gray2.vhd
 l0
-L91 1
-V92HClg9WAPFjjbTj4L_Lf0
-!s100 ?:Ie@7f1TE?Y7D?fLnhLT3
-Z12 OV;C;2020.1;71
+L5 1
+VX6g;;P6>jdOGFbSaRXYdm2
+!s100 kAGjc`GQ:0T2hLb@S<fn]3
+Z6 OV;C;2020.1;71
 32
-Z13 !s110 1696792640
+Z7 !s110 1697048868
 !i10b 1
-Z14 !s108 1696792640.000000
-Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab4/83190817/p2/modelsim/lab4_p2.vho|
-Z16 !s107 C:/Users/steve/source/eel4712/lab4/83190817/p2/modelsim/lab4_p2.vho|
+Z8 !s108 1697048868.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/git_repos/school/EEL4712/lab4/83190817/p2/gray2.vhd|
+Z10 !s107 C:/Users/steve/git_repos/school/EEL4712/lab4/83190817/p2/gray2.vhd|
 !i113 1
-Z17 o-work work -2002 -explicit
-Z18 tExplicit 1 CvgOpt 0
-Astructure
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aarch
 R1
 R2
-R3
-R4
-R5
+Z13 DEx4 work 5 gray2 0 22 X6g;;P6>jdOGFbSaRXYdm2
+!i122 78
+l15
+Z14 L12 67
+Z15 V_2UB2IfO=5zH4fMeL_@[l0
+Z16 !s100 da8o;M?F8Mc6n2LU_0gad1
 R6
+32
 R7
+!i10b 1
 R8
-Z19 DEx4 work 5 gray2 0 22 92HClg9WAPFjjbTj4L_Lf0
+R9
+R10
+!i113 1
+R11
+R12
+Astructure
+Z17 DPx11 fiftyfivenm 21 fiftyfivenm_atom_pack 0 22 OTUTkBjTeYVegmIWhVi3N0
+Z18 DPx11 fiftyfivenm 22 fiftyfivenm_components 0 22 C5K^h=:j[4HI?HO^UkN3:2
+Z19 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
+Z20 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+R1
+R2
+DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
+DEx4 work 5 gray2 0 22 92HClg9WAPFjjbTj4L_Lf0
 !i122 59
 l186
-Z20 L108 924
-Z21 VK?YeIIR?g;geOSPlR?ifY2
-Z22 !s100 Do@O7YaDzNEDNiA6T[PFk1
-R12
-32
-R13
-!i10b 1
-R14
-R15
-R16
-!i113 1
-R17
-R18
-Egray2_tb
-Z23 w1696792638
-Z24 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-Z25 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
-Z26 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+L108 924
+VK?YeIIR?g;geOSPlR?ifY2
+!s100 Do@O7YaDzNEDNiA6T[PFk1
 R6
-R7
-!i122 58
-R9
-Z27 8C:/Users/steve/source/eel4712/lab4/83190817/p2/gray2_tb.vhd
-Z28 FC:/Users/steve/source/eel4712/lab4/83190817/p2/gray2_tb.vhd
+32
+Z21 !s110 1696792640
+!i10b 1
+Z22 !s108 1696792640.000000
+Z23 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab4/83190817/p2/modelsim/lab4_p2.vho|
+Z24 !s107 C:/Users/steve/source/eel4712/lab4/83190817/p2/modelsim/lab4_p2.vho|
+!i113 1
+R11
+R12
+Z25 dC:/Users/steve/source/eel4712/lab4/83190817/p2/modelsim
+Z26 FC:/Users/steve/source/eel4712/lab4/83190817/p2/modelsim/lab4_p2.vho
+Z27 w1696790077
+Z28 8C:/Users/steve/source/eel4712/lab4/83190817/p2/modelsim/lab4_p2.vho
+Egray2_tb
+Z29 w1697048864
+Z30 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z31 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z32 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+R1
+R2
+!i122 77
+R3
+Z33 8C:/Users/steve/git_repos/school/EEL4712/lab4/83190817/p2/gray2_tb.vhd
+Z34 FC:/Users/steve/git_repos/school/EEL4712/lab4/83190817/p2/gray2_tb.vhd
 l0
 L10 1
 VY>9]=FiHImFHXoF1nm]Fl0
 !s100 aeXK>391Pl9Xe?FMzFR?Y0
-R12
+R6
 32
-R13
+R7
 !i10b 1
-R14
-Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/source/eel4712/lab4/83190817/p2/gray2_tb.vhd|
-Z30 !s107 C:/Users/steve/source/eel4712/lab4/83190817/p2/gray2_tb.vhd|
-!i113 1
-R17
-R18
-Atb
-R1
-R2
-R3
-R4
-R5
 R8
-R19
-R24
-R25
-R26
-R6
-R7
-DEx4 work 8 gray2_tb 0 22 Y>9]=FiHImFHXoF1nm]Fl0
-!i122 58
-l20
-L13 91
-Vd@IS3ddNf1WGZCa8HSa;02
-!s100 GWUdJKbU0onV:Jd[]bL4o1
-R12
-32
-R13
-!i10b 1
-R14
-R29
-R30
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/steve/git_repos/school/EEL4712/lab4/83190817/p2/gray2_tb.vhd|
+Z36 !s107 C:/Users/steve/git_repos/school/EEL4712/lab4/83190817/p2/gray2_tb.vhd|
 !i113 1
-R17
-R18
-Ehard_block
-R0
-R3
-R1
-R5
-R6
-R7
-R2
-!i122 59
-R9
-R10
 R11
+R12
+Atb
+R13
+R30
+R31
+R32
+R1
+R2
+DEx4 work 8 gray2_tb 0 22 Y>9]=FiHImFHXoF1nm]Fl0
+!i122 77
+l20
+L13 93
+V:[K<G`l[SKBGgAXzc_iFM1
+!s100 gB:057B@g2XKjb[bRUBc^3
+R6
+32
+R7
+!i10b 1
+R8
+R35
+R36
+!i113 1
+R11
+R12
+Ehard_block
+R27
+R19
+R17
+R20
+R1
+R2
+R18
+!i122 59
+R25
+R28
+R26
 l0
 L35 1
 V>3HSdlc4d4BO@^bgkI]0V1
 !s100 3A]XnMhF<;9mKUe5mn3aM1
-R12
-32
-R13
-!i10b 1
-R14
-R15
-R16
-!i113 1
-R17
-R18
-Astructure
-R3
-R1
-R5
 R6
-R7
+32
+R21
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12
+Astructure
+R19
+R17
+R20
+R1
 R2
-Z31 DEx4 work 10 hard_block 0 22 >3HSdlc4d4BO@^bgkI]0V1
+R18
+DEx4 work 10 hard_block 0 22 >3HSdlc4d4BO@^bgkI]0V1
 !i122 59
 l76
-Z32 L54 28
-Z33 Ve]G^Ol53JFOhKP<L<OL=C3
-Z34 !s100 >:Wi^nX[YiN=@>>JC6K_83
-R12
+L54 28
+Ve]G^Ol53JFOhKP<L<OL=C3
+!s100 >:Wi^nX[YiN=@>>JC6K_83
+R6
 32
-R13
+R21
 !i10b 1
-R14
-R15
-R16
+R22
+R23
+R24
 !i113 1
-R17
-R18
+R11
+R12

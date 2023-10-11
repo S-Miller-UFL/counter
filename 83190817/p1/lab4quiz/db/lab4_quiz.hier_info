@@ -1,0 +1,29 @@
+|counter_quiz
+clk => counter_output[0].CLK
+clk => counter_output[1].CLK
+clk => counter_output[2].CLK
+clk => counter_output[3].CLK
+rst => counter_output[0].ACLR
+rst => counter_output[1].ACLR
+rst => counter_output[2].ACLR
+rst => counter_output[3].ACLR
+rst => process_0.IN0
+rst => process_0.IN0
+rst => process_0.IN0
+up_n => process_0.IN1
+up_n => process_0.IN1
+load_n => process_0.IN1
+load_n => process_0.IN1
+input[0] => counter_output.DATAB
+input[1] => counter_output.DATAB
+input[2] => counter_output.DATAB
+input[3] => counter_output.DATAB
+output[0] <= counter_output[0].DB_MAX_OUTPUT_PORT_TYPE
+output[1] <= counter_output[1].DB_MAX_OUTPUT_PORT_TYPE
+output[2] <= counter_output[2].DB_MAX_OUTPUT_PORT_TYPE
+output[3] <= counter_output[3].DB_MAX_OUTPUT_PORT_TYPE
+quiz => process_0.IN1
+quiz => dino.IN1
+dino <= dino.DB_MAX_OUTPUT_PORT_TYPE
+
+

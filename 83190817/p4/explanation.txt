@@ -1,0 +1,5 @@
+the vhdl file appears to be a design that outputs a gray counter and 
+a regular counter into two seperate 7 seg displays
+
+The gray counter gets mapped to the leftmost 7 seg, the counter gets mapped to the right
+of the gray counter.

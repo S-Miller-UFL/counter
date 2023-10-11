@@ -27,7 +27,7 @@ if(rst = '1') then
 elsif(clk_in'Event and clk_in = '1') then
 	
 	count <= (count+1);
-		if(count = (clk_in_freq/clk_out_freq)) then
+		if(count = (clk_in_freq/clk_out_freq)-1) then
 			clockout <= not(clockout);
 			count <= (others => '0');
 		end if;

@@ -75,11 +75,13 @@ clk <= not(clk) after 10 ns when done = '0' else clk;
     end graycounter;
 
   begin
+    rst <= '1'; 
+    wait for 200 ns;
     -- test count
     rst <= '0';
-    wait for 10 ns;
+    wait for 200 ns;
     for i in 1 to 15 loop
-	wait for 10 ns;
+	wait for 20 ns;
 	assert(output = graycounter(i)) report "counter incorrect";
 	wait until rising_edge(clk);
     end loop;
